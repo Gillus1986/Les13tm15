@@ -1,0 +1,120 @@
+body{
+  background-color: #008e5a;
+}
+header{
+  background-color: #910375;
+  width: auto;
+  height: 200px;
+}
+footer{
+  background-color: #910375;
+  width: auto;
+  height: 200px;
+}
+img{
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  float: right;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  padding: 10px;
+  margin: 20px 10px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+li:hover{
+  background-color: grey;
+  border-style: none;
+}
+p{
+  border: solid;
+  border-width: thick;
+  border-radius: 15px;
+  background-color: grey;
+  width: auto;
+  height: auto;
+  margin: auto;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+h1, h3{
+  text-align: center;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+table{
+  margin: auto;
+}
+table, th, td{
+  border: solid;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+th{
+  background-color: #910375;
+}
+form{
+  margin: auto;
+  background-color: grey;
+  border: solid;
+  border-width: thick;
+  border-radius: 15px;
+  padding: 10px;
+}
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  box-sizing: border-box;
+  border: solid;
+  margin: 10px auto;
+  width: 50%;
+  padding: 10px;
+  border-width: thick;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+button:active{
+  background-color: #910375;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+#div{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+#div1{
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+#div2{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+.table{
+  background-color: grey;
+  border: solid;
+  border-width: thick;
+  border-radius: 15px;
+}
